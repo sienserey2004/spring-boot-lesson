@@ -1,0 +1,80 @@
+2026-07-06T13:54:51.092+07:00  INFO 11744 --- [restartedMain] c.s.a.AppCoffeeShopApplication           : Starting AppCoffeeShopApplication using Java 21.0.9 with PID 11744 (D:\Work\Lesson\Final\spring-boot\app-coffee-shop\target\classes started by SienSerey in D:\Work\Lesson\Final\spring-boot\app-coffee-shop)
+2026-07-06T13:54:51.093+07:00  INFO 11744 --- [restartedMain] c.s.a.AppCoffeeShopApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-07-06T13:54:51.563+07:00  INFO 11744 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-06T13:54:51.585+07:00  INFO 11744 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2026-07-06T13:54:51.741+07:00  INFO 11744 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-07-06T13:54:51.743+07:00  INFO 11744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-06T13:54:51.745+07:00  INFO 11744 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-06T13:54:51.778+07:00  INFO 11744 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 677 ms
+2026-07-06T13:54:51.901+07:00  INFO 11744 --- [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-06T13:54:51.947+07:00  INFO 11744 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-06T13:54:51.949+07:00  INFO 11744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-07-06T13:54:51.988+07:00  INFO 11744 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f965ec8
+2026-07-06T13:54:51.989+07:00  INFO 11744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-07-06T13:54:51.997+07:00  WARN 11744 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-06T13:54:52.005+07:00  INFO 11744 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mydb?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: mydb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-06T13:54:52.109+07:00  INFO 11744 --- [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-06T13:54:52.136+07:00  INFO 11744 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-06T13:54:52.327+07:00  WARN 11744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-06T13:54:52.358+07:00  INFO 11744 --- [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-07-06T13:54:52.542+07:00  INFO 11744 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-07-06T13:54:52.547+07:00  INFO 11744 --- [restartedMain] c.s.a.AppCoffeeShopApplication           : Started AppCoffeeShopApplication in 1.602 seconds (process running for 167.846)
+2026-07-06T13:54:52.550+07:00  INFO 11744 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-06T13:54:54.260+07:00  INFO 11744 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-06T13:54:54.277+07:00  INFO 11744 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-06T13:54:54.280+07:00  INFO 11744 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-06T13:54:54.282+07:00  INFO 11744 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-07-06T13:54:54.286+07:00  INFO 11744 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2026-07-06T13:55:02.968+07:00  INFO 6716 --- [restartedMain] c.s.a.AppCoffeeShopApplication           : Starting AppCoffeeShopApplication using Java 21.0.9 with PID 6716 (D:\Work\Lesson\Final\spring-boot\app-coffee-shop\target\classes started by SienSerey in D:\Work\Lesson\Final\spring-boot\app-coffee-shop)
+2026-07-06T13:55:02.972+07:00  INFO 6716 --- [restartedMain] c.s.a.AppCoffeeShopApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-07-06T13:55:03.093+07:00  INFO 6716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-06T13:55:03.093+07:00  INFO 6716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-06T13:55:04.749+07:00  INFO 6716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-06T13:55:04.818+07:00  INFO 6716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+2026-07-06T13:55:05.731+07:00  INFO 6716 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-07-06T13:55:05.784+07:00  INFO 6716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-06T13:55:05.785+07:00  INFO 6716 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-06T13:55:05.879+07:00  INFO 6716 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2782 ms
+2026-07-06T13:55:06.448+07:00  INFO 6716 --- [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-06T13:55:06.629+07:00  INFO 6716 --- [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-06T13:55:07.173+07:00  INFO 6716 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-06T13:55:07.219+07:00  INFO 6716 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-06T13:55:07.413+07:00  INFO 6716 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27197bf0
+2026-07-06T13:55:07.415+07:00  INFO 6716 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-06T13:55:07.484+07:00  WARN 6716 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-06T13:55:07.513+07:00  INFO 6716 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mydb?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: mydb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-06T13:55:10.451+07:00  INFO 6716 --- [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-06T13:55:10.566+07:00  INFO 6716 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-06T13:55:10.820+07:00  INFO 6716 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-06T13:55:11.707+07:00  WARN 6716 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-06T13:55:11.841+07:00  INFO 6716 --- [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-07-06T13:55:12.902+07:00  INFO 6716 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-07-06T13:55:12.916+07:00  INFO 6716 --- [restartedMain] c.s.a.AppCoffeeShopApplication           : Started AppCoffeeShopApplication in 11.294 seconds (process running for 13.303)
+2026-07-06T13:59:38.575+07:00  INFO 6716 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-07-06T13:59:38.588+07:00  INFO 6716 --- [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-06T13:59:38.606+07:00  INFO 6716 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-06T13:59:38.612+07:00  INFO 6716 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-06T13:59:38.624+07:00  INFO 6716 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-06T13:59:38.659+07:00  INFO 6716 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
